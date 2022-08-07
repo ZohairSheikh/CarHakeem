@@ -12,10 +12,10 @@ An all in one body shop solution for the automotive industry.We have created thi
                         |__________________________________________________|  
 
 
-                                     ------------------------------------
-                                       Required Softwares & Technologies
-                                     ------------------------------------
-
+                                    
+----------------------------------------------------
+ Required Softwares and Technologies 
+----------------------------------------------------
 1. Android Studio
 2. Visual Studio Code
 3. Node and Npm
