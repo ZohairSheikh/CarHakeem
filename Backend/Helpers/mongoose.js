@@ -2,9 +2,9 @@ const mongoose = require('mongoose');
 
 //const conn = mongoose.createConnection('mongodb+srv://CarHakeem:CarHakeem@carhakeem.nt5hm.mongodb.net/myFirstDatabase?retryWrites=true&w=majority');
 
-
-const dbURI = 'mongodb+srv://CarHakeem:CarHakeem@carhakeem.nt5hm.mongodb.net/CarHakeem?retryWrites=true&w=majority';
-
+// here enter the db connection string you get on creating your mongodb database, below is the db connection we used.
+//const dbURI = 'mongodb+srv://CarHakeem:CarHakeem@carhakeem.nt5hm.mongodb.net/CarHakeem?retryWrites=true&w=majority';
+const dbURI = 'your connection string';
 
 
 
