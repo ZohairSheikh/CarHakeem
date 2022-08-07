@@ -1,0 +1,25 @@
+{
+  "name": "carhakeem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "bcryptjs": "^2.4.3",
+    "content-based-recommender": "^1.5.0",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.5",
+    "path": "^0.12.7",
+    "polygon": "^1.0.2",
+    "request": "^2.88.2",
+    "body-parser": "^1.20.0"
+  }
+}

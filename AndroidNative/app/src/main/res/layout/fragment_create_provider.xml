@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".15" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv85"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".85" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".25" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".75" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".70" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".1" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".90" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv20"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".20" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv80"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".80" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".6" />
+
+
+    <RelativeLayout
+        android:id="@+id/rlProviderName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toLeftOf="@id/glv10"
+        app:layout_constraintRight_toRightOf="@id/glv90"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <info.umer.carhakeem.UI.Custom.TextView_N
+            android:id="@+id/tvProviderName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Provider Name"
+            android:textColor="#8F92A1" />
+
+
+        <info.umer.carhakeem.UI.Custom.EditText_N
+            android:id="@+id/etProviderName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvProviderName"
+            android:layout_alignParentEnd="true"
+            android:background="@android:color/transparent"
+            android:hint="Enter Provider Name"
+            android:inputType="textCapWords"
+
+            app:border="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etProviderName"
+            android:background="#338F92A1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlAddress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/glv10"
+        app:layout_constraintRight_toRightOf="@id/glv90"
+        app:layout_constraintTop_toBottomOf="@id/rlProviderName">
+
+        <info.umer.carhakeem.UI.Custom.TextView_N
+            android:id="@+id/tvAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="#8F92A1" />
+
+
+        <info.umer.carhakeem.UI.Custom.EditText_N
+            android:id="@+id/etAddress"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvAddress"
+
+            android:layout_alignParentEnd="true"
+
+
+            android:background="@android:color/transparent"
+            android:hint="Enter Address"
+            android:inputType="textCapWords"
+            app:border="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etAddress"
+            android:background="#338F92A1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlCategory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/glv10"
+        app:layout_constraintRight_toRightOf="@id/glv90"
+        app:layout_constraintTop_toBottomOf="@id/rlAddress">
+
+        <info.umer.carhakeem.UI.Custom.TextView_N
+            android:id="@+id/tvCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="#8F92A1" />
+
+
+        <info.umer.carhakeem.UI.Custom.EditText_N
+            android:id="@+id/etCategory"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvCategory"
+            android:layout_alignParentEnd="true"
+
+            android:background="@android:color/transparent"
+
+
+            android:enabled="false"
+            android:hint="Select Category"
+            android:inputType="textCapWords"
+            app:border="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etCategory"
+            android:background="#338F92A1" />
+
+
+        <Button
+            android:id="@+id/btnCategory"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/etCategory"
+            android:layout_alignBottom="@id/etCategory"
+            android:background="@android:color/transparent" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlMobileNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/glv10"
+        app:layout_constraintRight_toRightOf="@id/glv90"
+        app:layout_constraintTop_toBottomOf="@id/rlCategory">
+
+        <info.umer.carhakeem.UI.Custom.TextView_N
+            android:id="@+id/tvMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mobile No"
+            android:textColor="#8F92A1" />
+
+
+        <info.umer.carhakeem.UI.Custom.EditText_N
+            android:id="@+id/etMobileNo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvMobileNo"
+
+            android:layout_alignParentEnd="true"
+
+
+            android:background="@android:color/transparent"
+            android:hint="Enter Mobile No"
+            android:inputType="number"
+            app:border="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etMobileNo"
+            android:background="#338F92A1" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlDistrict"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/glv10"
+        app:layout_constraintRight_toRightOf="@id/glv90"
+        app:layout_constraintTop_toBottomOf="@id/rlMobileNo">
+
+        <info.umer.carhakeem.UI.Custom.TextView_N
+            android:id="@+id/tvDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="District"
+            android:textColor="#8F92A1" />
+
+
+        <info.umer.carhakeem.UI.Custom.EditText_N
+            android:id="@+id/etDistrict"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvDistrict"
+
+            android:layout_alignParentEnd="true"
+
+
+            android:background="@android:color/transparent"
+            android:hint="Enter District"
+            android:inputType="textCapWords"
+            app:border="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etDistrict"
+            android:background="#338F92A1" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rlArea"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/glv10"
+        app:layout_constraintRight_toRightOf="@id/glv90"
+        app:layout_constraintTop_toBottomOf="@id/rlDistrict">
+
+        <info.umer.carhakeem.UI.Custom.TextView_N
+            android:id="@+id/tvArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Area"
+            android:textColor="#8F92A1" />
+
+
+        <info.umer.carhakeem.UI.Custom.EditText_N
+            android:id="@+id/etArea"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvArea"
+
+            android:layout_alignParentEnd="true"
+
+
+            android:background="@android:color/transparent"
+            android:hint="Enter Area"
+            android:inputType="textCapWords"
+            app:border="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etArea"
+            android:background="#338F92A1" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlRate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="@id/glv10"
+        app:layout_constraintRight_toRightOf="@id/glv90"
+        app:layout_constraintTop_toBottomOf="@id/rlArea">
+
+        <info.umer.carhakeem.UI.Custom.TextView_N
+            android:id="@+id/tvRate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rate"
+            android:textColor="#8F92A1" />
+
+
+        <info.umer.carhakeem.UI.Custom.EditText_N
+            android:id="@+id/etRate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tvRate"
+
+            android:layout_alignParentEnd="true"
+
+
+            android:background="@android:color/transparent"
+            android:hint="Enter Rate"
+            android:inputType="number"
+            app:border="false" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/etRate"
+            android:background="#338F92A1" />
+
+    </RelativeLayout>
+
+    <info.umer.carhakeem.UI.Custom.Button_N
+        android:layout_width="0dp"
+        android:id="@+id/btnCreateProvider"
+        app:background_color="0"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@+id/rlRate"
+        app:layout_constraintLeft_toRightOf="@id/glv10"
+        app:layout_constraintRight_toLeftOf="@id/glv90"
+        android:text="Create Provider"
+        android:layout_height="50dp"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

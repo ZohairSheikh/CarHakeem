@@ -1,0 +1,39 @@
+{
+  "name": "polygon",
+  "version": "1.0.2",
+  "description": "utility for working with polygons (arrays of vec2s)",
+  "main": "polygon.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "2d-polygon-boolean": "~1.0.0",
+    "2d-polygon-self-intersections": "^1.2.2",
+    "circle2": "^1.1.0",
+    "circumcenter": "^1.0.0",
+    "line2": "^0.2.1",
+    "segseg": "~0.2.0",
+    "vec2": "^1.6.0"
+  },
+  "devDependencies": {
+    "fc": "^0.1.5",
+    "onecolor": "^2.4.0",
+    "tape": "~3.0.3",
+    "tap-spec": "~2.1.2"
+  },
+  "scripts": {
+    "test": "tape test/test.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmpvar/polygon.js.git"
+  },
+  "keywords": [
+    "polygon",
+    "vec2",
+    "geometry",
+    "2d"
+  ],
+  "author": "Elijah Insua <tmpvar@gmail.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../../../layout/custom_preview.xml" value="0.11626139817629179" />
+        <entry key="app/src/main/res/drawable-v24/drawer_item_color.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/icn_back.xml" value="0.1265" />
+        <entry key="app/src/main/res/drawable/icn_loc.xml" value="0.1285" />
+        <entry key="app/src/main/res/drawable/icn_phone.xml" value="0.1285" />
+        <entry key="app/src/main/res/layout/activity_base.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/dialog_forget_password.xml" value="0.12310030395136778" />
+        <entry key="app/src/main/res/layout/dialog_loading.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_create_provider.xml" value="0.1703125" />
+        <entry key="app/src/main/res/layout/fragment_customer_dashboard.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_my_bookings.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.253125" />
+        <entry key="app/src/main/res/layout/fragment_provider_dashboard.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/invoice_dialog.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/item_loading.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/rating_dialog.xml" value="0.253125" />
+        <entry key="app/src/main/res/layout/rc_item_providers.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/rc_my_booking.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/layout/rc_my_services.xml" value="0.13802083333333334" />
+        <entry key="app/src/main/res/menu/drawer_actions.xml" value="0.11770833333333333" />
+        <entry key="app/src/main/res/menu/filter_tasks.xml" value="0.13802083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="#fff"
+    android:padding="8dp"
+    card_view:cardCornerRadius="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:letterSpacing="-0.02"
+
+            android:lineSpacingExtra="5sp"
+
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/glv50"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Zero movie review" />
+        <RatingBar
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:id="@+id/rbRating"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:numStars="5"
+            style="?android:attr/ratingBarStyleIndicator"
+            app:layout_constraintLeft_toLeftOf="@id/glv50"
+            android:stepSize=".1"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textViewDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="14sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTitle"
+            tools:text="Shah Rukh Khan, Katrina Kaif and Anushka Sharma" />
+
+
+        <TextView
+            android:id="@+id/textViewCategory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="13sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDescription"
+        />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glv50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".5" />
+
+        <ImageView
+            android:id="@+id/btnCall"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/icn_phone"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textViewCategory" />
+
+        <ImageView
+            android:id="@+id/btnLocationOnMap"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/icn_loc"
+
+            app:layout_constraintStart_toEndOf="@id/btnCall"
+            app:layout_constraintTop_toBottomOf="@id/textViewCategory" />
+
+        <ImageView
+            android:id="@+id/btnBookOnline"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+
+            android:background="@android:color/transparent"
+            android:padding="10dp"
+            android:src="@drawable/icn_book_online"
+
+            app:layout_constraintStart_toEndOf="@id/btnLocationOnMap"
+            app:layout_constraintTop_toBottomOf="@id/textViewCategory" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

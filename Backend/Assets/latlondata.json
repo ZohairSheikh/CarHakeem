@@ -1,0 +1,103 @@
+{
+    "data": [{
+            "lat": 24.854912,
+            "lon": 67.043738,
+            "district": "South",
+            "area": "Karachi Cantonment"
+        },
+        {
+            "lat": 24.929772,
+            "lon": 67.124894,
+            "district": "East",
+            "area": "Johar"
+        },
+        {
+            "lat": 24.764324,
+            "lon": 67.095763,
+            "district": "South",
+            "area": "DHA"
+        },
+        {
+            "lat": 24.876390,
+            "lon": 67.053954,
+            "district": "East",
+            "area": "P.E.C.H.S"
+        },
+        {
+            "lat": 24.942416,
+            "lon": 67.092606,
+            "district": "East",
+            "area": "Gulshan"
+        },
+        {
+            "lat": 24.914138,
+            "lon": 67.031066,
+            "district": "Central",
+            "area": "Nazimabad"
+        }
+        ,
+        {
+            "lat": 24.842744,
+            "lon": 67.029189,
+            "district": "South",
+            "area": "Civil Lines"
+        }
+        ,
+        {
+            "lat": 24.892348,
+            "lon": 67.132101,
+            "district": "East",
+            "area": "Faisal Cantonment"
+        }
+        ,
+        {
+            "lat": 24.857522,
+            "lon": 67.027732,
+            "district": "East",
+            "area": "Saddar"
+        }
+
+        ,
+        {
+            "lat": 24.889358,
+            "lon": 67.043619,
+            "district": "East",
+            "area": "Jamshed Quarters"
+        }
+        ,
+        {
+            "lat": 24.973867,
+            "lon": 67.121429,
+            "district": "East",
+            "area": "Gulzar E Hijri"
+        }
+        ,
+        {
+            "lat": 24.935692,
+            "lon": 67.071817,
+            "district": "Central",
+            "area": "Gulberg"
+        }
+        ,
+        {
+            "lat": 24.872708,
+            "lon": 67.024642,
+            "district": "South",
+            "area": "Saddar"
+        }
+        ,
+        {
+            "lat": 24.828379,
+            "lon": 67.082543,
+            "district": "Korangi",
+            "area": "Qayyumabad"
+        }
+        ,
+        {
+            "lat": 24.813863,
+            "lon": 67.016487,
+            "district": "South",
+            "area": "Clifton"
+        }
+    ]
+}

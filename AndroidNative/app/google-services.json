@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "35496307268",
+    "project_id": "carhakeem-96f2d",
+    "storage_bucket": "carhakeem-96f2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:35496307268:android:068b32d94bc6064cc1aa11",
+        "android_client_info": {
+          "package_name": "info.daniyalsalim.carhakeem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "35496307268-ori5r7b5b0kd8od1rc9j39nurkfjh9o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "info.daniyalsalim.carhakeem",
+            "certificate_hash": "557d2c84e4aeac29c4deaddac52a567bd1960b34"
+          }
+        },
+        {
+          "client_id": "35496307268-j4d8kr0ofac280d9ogngt4grs7a069i1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQc_Ikvjrh_MQTuRqha47i6DD4Iu_vXV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "35496307268-j4d8kr0ofac280d9ogngt4grs7a069i1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Button">
+        <attr name="background_color" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="EditText">
+        <attr name="background_radius" format="boolean" />
+        <attr name="border" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TextView">
+        <attr name="is_spannable" format="boolean" />
+    </declare-styleable>
+
+
+    <declare-styleable name="CustomCheckBox">
+        <attr name="duration" format="integer" />
+        <attr name="stroke_width" format="dimension" />
+        <attr name="color_tick" format="color" />
+        <attr name="color_checked" format="color" />
+        <attr name="color_unchecked" format="color" />
+        <attr name="color_unchecked_stroke" format="color" />
+        <attr name="small_tick" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="TextInputEditText">
+        <attr name="backgroundRadius" format="boolean" />
+    </declare-styleable>
+
+
+
+    <declare-styleable name="TextInputLayout">
+        <attr name="hintText" format="string" />
+        <attr name="text" format="string" />
+        <attr name="required" format="boolean" />
+        <attr name="android:inputType"/>
+        <attr name="isButtonEnabled" format="boolean" />
+        <attr name="isPopUp" format="boolean" />
+        <attr name="itemsArr" format="string" />
+
+    </declare-styleable>
+
+
+
+
+
+
+
+
+</resources>

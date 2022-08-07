@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".1" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glv90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".9" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glvs10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".05" />
+
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glvs90"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent=".95" />
+
+            <info.umer.carhakeem.UI.Custom.TextView_N
+                android:id="@+id/tvText"
+                android:layout_width="wrap_content"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                android:layout_height="wrap_content"
+                android:text="Invoice"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:id="@+id/ll1"
+                app:layout_constraintTop_toBottomOf="@id/tvText"
+                android:layout_height="wrap_content">
+
+                <info.umer.carhakeem.UI.Custom.TextView_N
+
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    android:text="Time"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <info.umer.carhakeem.UI.Custom.TextView_N
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    android:text="08:30 Pm"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:id="@+id/ll2"
+                app:layout_constraintTop_toBottomOf="@id/ll1"
+                android:layout_height="wrap_content">
+
+                <info.umer.carhakeem.UI.Custom.TextView_N
+
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <info.umer.carhakeem.UI.Custom.TextView_N
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    android:text="28/05/2022"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:id="@+id/ll3"
+                app:layout_constraintTop_toBottomOf="@id/ll2"
+                android:layout_height="wrap_content">
+
+                <info.umer.carhakeem.UI.Custom.TextView_N
+
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amount"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent" />
+                <info.umer.carhakeem.UI.Custom.TextView_N
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    app:layout_constraintLeft_toLeftOf="parent"
+                    app:layout_constraintRight_toRightOf="parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rs 2000"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+            <info.umer.carhakeem.UI.Custom.Button_N
+                android:id="@+id/btnChangePassword"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+
+
+                android:text="Close"
+                app:background_color="0"
+                app:layout_constraintLeft_toRightOf="@id/glvs10"
+                app:layout_constraintRight_toLeftOf="@id/glvs90"
+                app:layout_constraintTop_toBottomOf="@id/ll3" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

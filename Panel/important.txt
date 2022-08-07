@@ -1,0 +1,9 @@
+
+
+composer require mongodb/mongodb --ignore-platform-reqs
+
+composer require dompdf/dompdf --ignore-platform-reqsD
+composer require tigo/recommendation --ignore-platform-reqs
+
+
+composer require mongodb/mongodb
