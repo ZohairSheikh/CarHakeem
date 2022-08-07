@@ -1,5 +1,5 @@
 # CarHakeem
-An all in one body shop solution for the automotive industry.
+An all in one body shop solution for the automotive industry.We have created this application using NodeJS, Java, and MongoDB frameworks. The application is our project to fulfill our Final Year Project's requirements.
 
                          __________________________________________________ 
                         |                                                  |
